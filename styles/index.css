@@ -3,10 +3,18 @@
 }
 
 @import '../fonts/dream.ttf';
+@import '../fonts/zizou-slab-bold.otf';
+@import '../fonts/zizou-slab-medium.otf';
+@import '../fonts/zizou-slab-regular.otf';
+
 @font-face {
   font-family: "dream";
   src: url("../fonts/dream.ttf");
-  }
+}
+@font-face {
+  font-family: "zizou";
+  src: url("../fonts/zizou-slab-bold.otf");
+}
 html, body {
   background-color: #eaefe1;
   font-family: 'Roboto';
@@ -16,20 +24,41 @@ img {
   max-width: 100%;
 }
 
+.text-red {
+  color: #fd0807;
+}
+
+.text-green {
+  color: #55a122;
+}
+
+.text-orange {
+  color: #e89301;
+}
+
+.text-leemon-green {
+  color: #b7db3e;
+}
+
 .icon img {
   width: 100%;
   max-width: 50px;
 }
 
+button {
+  position: relative;
+  z-index: 40;
+}
+
 .bg-top-header {
   position: absolute;
-  top: 0;
+  width: 500px;
+  height: 105px;
   right: 0;
+  top: 0;
   transform: rotate(180deg);
-  z-index: 0;
-  height: 8rem;
   /* min-height: 5rem; */
-  min-width: 25rem;
+  /* min-width: 25rem; */
 }
 
 .purchase {
@@ -48,11 +77,17 @@ img {
 .service {
   position: relative;
 }
+
 .service div {
   background-color: white;
   position: absolute;
   top: -15%;
   /* z-index: -10; */
+}
+
+.service p {
+  font-family: 'zizou';
+  font-size: 1.4em;
 }
 
 footer {
@@ -93,3 +128,20 @@ footer p{
   padding-bottom: 2em;
   font-size: 1em;
 }
+
+
+.nav-item {
+  font-family: 'zizou';
+  font-size: 1.5em;
+}
+
+@media (min-width: 992px) {
+  .icon img {
+    max-width: 150px;
+  }
+
+  .bg-top-header {
+    width: 1000px;
+    height: 200px;
+  }
+} 
