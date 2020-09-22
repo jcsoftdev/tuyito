@@ -134,7 +134,22 @@ footer p{
   font-family: 'zizou';
   font-size: 1.5em;
 }
+.position-top {
+  background-color: white;
+  position: absolute;
+  top: -2.5rem;
+}
+.position-top img{
+  /* position: absolute; */
+  margin: 0 !important;
+  top: 0;
+}
 
+@media (min-width: 768px) {
+  .position-top {
+    position: initial;
+  }
+} 
 
 @media (min-width: 992px) {
   .icon img {
@@ -147,16 +162,5 @@ footer p{
     width: 1000px;
     height: 200px;
   }
-  .position-top {
-    background-color: white;
-    position: relative;
-    left: 55%;
-    top: -30%;
-    padding: .1em;
-  }
-  .position-top img{
-    /* position: absolute; */
-    margin: 0 !important;
-    top: 0;
-  }
+  
 } 
