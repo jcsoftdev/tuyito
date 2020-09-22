@@ -2,10 +2,10 @@
   --swiper-theme-color: #007aff;
 }
 
-@import '../fonts/dream.ttf';
-@import '../fonts/zizou-slab-bold.otf';
-@import '../fonts/zizou-slab-medium.otf';
-@import '../fonts/zizou-slab-regular.otf';
+@import "../fonts/dream.ttf";
+@import "../fonts/zizou-slab-bold.otf";
+@import "../fonts/zizou-slab-medium.otf";
+@import "../fonts/zizou-slab-regular.otf";
 
 @font-face {
   font-family: "dream";
@@ -15,9 +15,10 @@
   font-family: "zizou";
   src: url("../fonts/zizou-slab-bold.otf");
 }
-html, body {
+html,
+body {
   background-color: #eaefe1;
-  font-family: 'zizou';
+  font-family: "zizou";
 }
 
 img {
@@ -45,7 +46,8 @@ img {
   max-width: 50px;
 }
 
-button, .collapse {
+button,
+.collapse {
   position: relative;
   z-index: 40;
 }
@@ -70,7 +72,7 @@ button, .collapse {
 }
 
 .card h2 {
-  font-family: 'dream';
+  font-family: "dream";
   font-size: 4rem;
 }
 
@@ -86,7 +88,7 @@ button, .collapse {
 }
 
 .service p {
-  font-family: 'zizou';
+  font-family: "zizou";
   font-size: 1.4em;
 }
 
@@ -105,13 +107,14 @@ footer {
   position: relative;
   top: 1rem;
 }
-footer h2, footer p {
+footer h2,
+footer p {
   position: relative;
   text-align: center;
   color: #fff;
   margin: 0;
 }
-footer>h2 {
+footer > h2 {
   font-size: 1.2rem;
   padding-top: 1em;
 }
@@ -122,9 +125,9 @@ footer>h2 {
   padding-top: 1em;
   width: 70px;
 }
-footer p{
+footer p {
   background-color: #b7db3e;
-  padding-top: .5em;
+  padding-top: 0.5em;
   padding-bottom: 2em;
   font-size: 1em;
 }
@@ -151,30 +154,30 @@ footer ul li a {
 }
 
 .nav-item {
-  font-family: 'zizou';
+  font-family: "zizou";
   font-size: 1.5em;
 }
+
 .position-top {
   background-color: white;
   position: absolute;
   top: -2.5rem;
 }
-.position-top img{
+
+.position-top img {
   /* position: absolute; */
   margin: 0 !important;
   top: 0;
 }
 
-
-
 @media (min-width: 768px) {
   .position-top {
     position: initial;
   }
-} 
+}
 
 @media (min-width: 992px) {
-  footer>h2 {
+  footer > h2 {
     padding-top: 3em;
   }
   .icon img {
@@ -191,4 +194,4 @@ footer ul li a {
     justify-content: center;
     min-width: 100%;
   }
-} 
+}
