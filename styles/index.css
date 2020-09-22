@@ -170,6 +170,11 @@ footer ul li a {
   top: 0;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+}
+
 @media (min-width: 768px) {
   .position-top {
     position: initial;
@@ -190,5 +195,9 @@ footer ul li a {
   .navbar-expand-lg .navbar-nav {
     justify-content: center;
     min-width: 100%;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 60px;
+    height: 60px;
   }
 }
