@@ -17,7 +17,7 @@
 }
 html, body {
   background-color: #eaefe1;
-  font-family: 'Roboto';
+  font-family: 'zizou';
 }
 
 img {
@@ -45,7 +45,7 @@ img {
   max-width: 50px;
 }
 
-button {
+button, .collapse {
   position: relative;
   z-index: 40;
 }
@@ -111,7 +111,7 @@ footer h2, footer p {
   color: #fff;
   margin: 0;
 }
-footer h2 {
+footer>h2 {
   font-size: 1.2rem;
   padding-top: 1em;
 }
@@ -129,6 +129,26 @@ footer p{
   font-size: 1em;
 }
 
+footer .d-flex:last-child {
+  background-color: #b7db3e;
+}
+
+footer .derechos {
+  padding: 0;
+}
+
+footer ul {
+  margin: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  font-size: 1rem;
+  color: #fff;
+}
 
 .nav-item {
   font-family: 'zizou';
@@ -145,6 +165,8 @@ footer p{
   top: 0;
 }
 
+
+
 @media (min-width: 768px) {
   .position-top {
     position: initial;
@@ -152,6 +174,9 @@ footer p{
 } 
 
 @media (min-width: 992px) {
+  footer>h2 {
+    padding-top: 3em;
+  }
   .icon img {
     max-width: 100px;
   }
@@ -162,5 +187,8 @@ footer p{
     width: 1000px;
     height: 200px;
   }
-  
+  .navbar-expand-lg .navbar-nav {
+    justify-content: center;
+    min-width: 100%;
+  }
 } 
