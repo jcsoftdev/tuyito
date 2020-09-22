@@ -135,13 +135,28 @@ footer p{
   font-size: 1.5em;
 }
 
+
 @media (min-width: 992px) {
   .icon img {
     max-width: 100px;
   }
-
+  .position-top {
+    position: relative;
+  }
   .bg-top-header {
     width: 1000px;
     height: 200px;
+  }
+  .position-top {
+    background-color: white;
+    position: relative;
+    left: 55%;
+    top: -30%;
+    padding: .1em;
+  }
+  .position-top img{
+    /* position: absolute; */
+    margin: 0 !important;
+    top: 0;
   }
 } 
